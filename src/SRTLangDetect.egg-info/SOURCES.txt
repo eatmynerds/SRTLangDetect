@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/srtlangdetect.py
-src/SRTLangDetect.egg-info/PKG-INFO
-src/SRTLangDetect.egg-info/SOURCES.txt
-src/SRTLangDetect.egg-info/dependency_links.txt
-src/SRTLangDetect.egg-info/requires.txt
-src/SRTLangDetect.egg-info/top_level.txt
