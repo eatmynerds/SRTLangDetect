@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SRTLangDetect"
+version = "0.1.0"
+description = "A python project to autodetect srt file languages"
+authors = [
+    { name = "Jason Spalti", email = "eatmynerds@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "chardet==5.2.0",
+    "iso639==0.1.4",
+    "langid==1.1.6",
+    "srt==3.5.3"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
